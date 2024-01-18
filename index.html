@@ -25,16 +25,23 @@
 <body>
     <header class="bg-[#FFFBF0]">
         <!-- nav section -->
-        <nav class="flex flex-col px-5  md:flex-row  md:gap-3 md:justify-between md:lg:items-center   md:px-32 pt-10">
+        <nav class="flex   px-5  md:flex-row  md:gap-3 justify-between md:lg:items-center   md:px-32 pt-10">
             <div class="w-44 lg:w-2/5">
                 <img src="icons/logo.png" alt="logo">
             </div>     
-            <ul class="flex">
-                <li class="pr-10"><a class="no-underline" href="">Home</a></li>
+            <ul class="flex max-md:hidden">
+                <li class="pr-10"><a href="">Home</a></li>
                 <li class="pr-10"><a href="">Product</a></li>
                 <li class="pr-10"><a href="">About us</a></li>
                 <li class="pr-10"><a href="">Contact us</a></li>
             </ul>
+            <div class="max-sm:block md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+            </div>
+            
+              
 
         </nav>
         <!-- banner section -->
